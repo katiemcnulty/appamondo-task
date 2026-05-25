@@ -1,0 +1,83 @@
+{
+  "article": {
+    "id": 201,
+    "slug": "getting-around-scotland-without-a-car",
+    "title": "Getting Around Scotland Without a Car",
+    "category": "Getting Here & Around",
+    "categorySlug": "getting-here-and-around",
+    "lastUpdated": "2026-04-14",
+    "readTime": "6 min read",
+    "tags": ["Transport", "Planning", "Trains", "Ferries"],
+    "excerpt": "Scotland has excellent public transport options including trains, buses, and ferries to help you explore without a car.",
+    "sections": [
+      {
+        "id": "introduction",
+        "heading": null,
+        "content": "You don't need a car to explore Scotland. From the Borders to the Highlands, a well-connected network of trains, buses, and ferries makes it possible to reach some of the most spectacular scenery in Europe — all without getting behind the wheel. This guide covers your main options and some tips for making the most of each."
+      },
+      {
+        "id": "by-train",
+        "heading": "Travelling by Train",
+        "content": "ScotRail operates the majority of rail services within Scotland, connecting major cities like Edinburgh, Glasgow, Inverness, Aberdeen, and Stirling. The scenic West Highland Line — running from Glasgow to Mallaig via Fort William — is widely regarded as one of the most beautiful rail journeys in the world. For flexibility, ScotRail offer a range of rover passes including the Highland Rover and the Freedom of Scotland pass, which allow unlimited travel within set regions for a fixed number of days. These can represent excellent value if you plan to cover a lot of ground.",
+        "tip": {
+          "heading": "Top tip",
+          "content": "Book ScotRail tickets in advance online for the best fares. If you're travelling the West Highland Line, try to sit on the left side of the train heading north for the best views of Loch Lomond."
+        }
+      },
+      {
+        "id": "by-bus",
+        "heading": "Travelling by Bus and Coach",
+        "content": "Citylink operates an extensive coach network connecting towns and cities across Scotland, including many destinations not served by rail. In rural areas, Stagecoach and a network of local operators fill in the gaps — though services can be infrequent in more remote areas, so it's worth planning ahead. The Traveline Scotland journey planner is a useful tool for mapping out bus-based routes anywhere in the country."
+      },
+      {
+        "id": "ferry-routes",
+        "heading": "Ferry Routes to the Islands",
+        "content": "CalMac (Caledonian MacBrayne) operates ferry services to over 50 Scottish islands including Skye, Mull, Islay, Arran, and the Outer Hebrides. Ferries are a highlight of travel in Scotland in their own right — particularly the crossing to the Isle of Arran from Ardrossan, or the journey through the Sound of Mull to Craignure. NorthLink Ferries serve Orkney and Shetland from Aberdeen and Scrabster. It's advisable to book ferry crossings in advance during summer months, especially if you're travelling with luggage or on a tight schedule.",
+        "tip": {
+          "heading": "Did you know?",
+          "content": "CalMac offer an Island Rover ticket which gives you unlimited travel on their ferry network for a set number of days. Perfect if you plan to island-hop."
+        }
+      },
+      {
+        "id": "cycling",
+        "heading": "Cycling",
+        "content": "Scotland has an outstanding network of long-distance cycling routes managed by Sustrans as part of the National Cycle Network. The most famous is the Caledonia Way (NCN Route 78), running 231 miles from Campbeltown to Inverness. Many train services allow you to carry bikes, though spaces are limited and advance booking is recommended on busy routes. Bike hire is available in most tourist towns and cities if you'd rather not bring your own."
+      }
+    ],
+    "relatedArticles": [
+      {
+        "id": 202,
+        "title": "Ferry routes to the Scottish islands",
+        "categorySlug": "getting-here-and-around"
+      },
+      {
+        "id": 203,
+        "title": "ScotRail passes and rover tickets",
+        "categorySlug": "getting-here-and-around"
+      },
+      {
+        "id": 204,
+        "title": "Driving in Scotland — rules and road tips",
+        "categorySlug": "getting-here-and-around"
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "label": "Home",
+        "url": "/"
+      },
+      {
+        "label": "Getting Here & Around",
+        "url": "#"
+      },
+      {
+        "label": "Getting Around Scotland Without a Car",
+        "url": null
+      }
+    ],
+    "helpful": {
+      "yes": 142,
+      "no": 8
+    }
+  }
+}

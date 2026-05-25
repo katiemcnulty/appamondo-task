@@ -1,0 +1,147 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "slug": "planning-your-trip",
+      "title": "Planning Your Trip",
+      "description": "Itineraries, best times to visit, travel tips and advice",
+      "icon": "map",
+      "articleCount": 24,
+      "articles": [
+        "Best time of year to visit Scotland",
+        "How to plan a road trip on the North Coast 500",
+        "Do I need travel insurance for Scotland?",
+        "What currency is used in Scotland?",
+        "Is it safe to drink tap water in Scotland?"
+      ]
+    },
+    {
+      "id": 2,
+      "slug": "getting-here-and-around",
+      "title": "Getting Here & Around",
+      "description": "Flights, trains, buses, ferries and driving in Scotland",
+      "icon": "bus",
+      "articleCount": 18,
+      "articles": [
+        "Getting around Scotland without a car",
+        "Travelling to Scotland from outside the UK",
+        "Ferry routes to the Scottish islands",
+        "ScotRail passes and rover tickets",
+        "Driving in Scotland — rules and road tips"
+      ]
+    },
+    {
+      "id": 3,
+      "slug": "accommodation",
+      "title": "Accommodation",
+      "description": "Star ratings, booking help and types of places to stay",
+      "icon": "bed",
+      "articleCount": 15,
+      "articles": [
+        "What does the VisitScotland star rating mean?",
+        "How to find quality-assured accommodation",
+        "Types of accommodation in Scotland",
+        "Camping and glamping in Scotland",
+        "Cancellation and refund policies explained"
+      ]
+    },
+    {
+      "id": 4,
+      "slug": "things-to-do",
+      "title": "Things to Do",
+      "description": "Attractions, activities, experiences and hidden gems",
+      "icon": "binoculars",
+      "articleCount": 31,
+      "articles": [
+        "Top castles to visit in Scotland",
+        "Whisky distillery tours — what to expect",
+        "Hiking and walking routes for beginners",
+        "Wildlife watching in Scotland",
+        "Free things to do in Edinburgh"
+      ]
+    },
+    {
+      "id": 5,
+      "slug": "events-and-festivals",
+      "title": "Events & Festivals",
+      "description": "Highland Games, Hogmanay, festivals and seasonal events",
+      "icon": "calendar",
+      "articleCount": 12,
+      "articles": [
+        "Guide to Hogmanay celebrations",
+        "How to find Highland Games near you",
+        "Edinburgh Festival Fringe — visitor guide",
+        "Burns Night traditions and events",
+        "Celtic Connections music festival"
+      ]
+    },
+    {
+      "id": 6,
+      "slug": "accessibility",
+      "title": "Accessibility",
+      "description": "Accessible travel, venues, routes and accommodation",
+      "icon": "accessibility",
+      "articleCount": 9,
+      "articles": [
+        "Accessible attractions in Edinburgh",
+        "Wheelchair-friendly routes in the Highlands",
+        "Finding accessible accommodation in Scotland",
+        "Travelling with a visual impairment",
+        "Assistance dogs in Scotland — what you need to know"
+      ]
+    },
+    {
+      "id": 7,
+      "slug": "travel-trade-and-industry",
+      "title": "Travel Trade & Industry",
+      "description": "For tourism businesses, listings, and trade partnerships",
+      "icon": "briefcase",
+      "articleCount": 20,
+      "articles": [
+        "How to list your business with VisitScotland",
+        "Applying for a quality assurance assessment",
+        "Tourism industry grants and funding",
+        "Marketing partnership opportunities",
+        "Updating your VisitScotland business listing"
+      ]
+    },
+    {
+      "id": 8,
+      "slug": "contact-and-feedback",
+      "title": "Contact & Feedback",
+      "description": "Get in touch, make a complaint or share your feedback",
+      "icon": "mail",
+      "articleCount": 6,
+      "articles": [
+        "How to contact VisitScotland",
+        "Making a complaint",
+        "Reporting inaccurate information",
+        "Sharing feedback about your visit",
+        "Media and press enquiries"
+      ]
+    }
+  ],
+  "popularArticles": [
+    {
+      "id": 101,
+      "title": "Getting around Scotland without a car",
+      "category": "Getting Here & Around",
+      "categorySlug": "getting-here-and-around",
+      "excerpt": "Scotland has excellent public transport options including trains, buses, and ferries to help you explore without a car."
+    },
+    {
+      "id": 102,
+      "title": "What does the VisitScotland star rating mean?",
+      "category": "Accommodation",
+      "categorySlug": "accommodation",
+      "excerpt": "Our quality assurance scheme helps you find accommodation that meets a recognised standard of quality and comfort."
+    },
+    {
+      "id": 103,
+      "title": "Best time of year to visit Scotland",
+      "category": "Planning Your Trip",
+      "categorySlug": "planning-your-trip",
+      "excerpt": "From the summer festivals to winter Northern Lights, every season in Scotland has something special to offer."
+    }
+  ]
+}
