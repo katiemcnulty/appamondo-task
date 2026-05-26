@@ -1,4 +1,5 @@
 export interface Topic {
+    id: number;
     title: string;
     description: string;
     articles: string[];
@@ -6,24 +7,22 @@ export interface Topic {
     articleCount: number;
 }
 
-export interface CardIcon {
-    id: string;
-    component: any;
-}
-
 export interface Article {
+    id: number;
+    slug: string;
     title: string;
     lastUpdated: string;
     readTime: string;
     tags: string[];
-    sections: Section[];
     excerpt: string;
-    slug: string;
+    sections: Section[]
+    relatedArticles: RelatedArticle[];
+    breadcrumbs: Breadcrumb[];
 }
 
 interface Section {
-    id: number;
-    heading: string;
+    id: string;
+    heading: string | null;
     content: string;
 }
 
@@ -34,6 +33,7 @@ export interface RelatedArticle {
 }
 
 export interface Breadcrumb {
+    id: number;
     label: string;
-    url: string | null;
+    url: string ;
 }

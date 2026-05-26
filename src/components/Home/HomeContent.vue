@@ -1,28 +1,22 @@
 <script setup lang="ts">
 
-import {onMounted, ref} from "vue";
+import { ref} from "vue";
 import data from './../../data/categories.json'
 import TopicCard from "./TopicCard.vue";
 import type {Topic} from "../../types.ts";
 
-const topics = ref<Topic[]>([])
-
-onMounted(() => {
-  topics.value = data.categories;
-})
+const topics = ref<Topic[]>(data.categories)
 
 </script>
 
 <template>
-  <main>
     <div class="home-content" id="articles">
       <div class="topics-container">
-        <div class="topic" v-for="topic in topics">
+        <div class="topic" v-for="topic in topics" :key="topic.id">
           <TopicCard :topic="topic"/>
         </div>
       </div>
     </div>
-  </main>
 </template>
 
 <style scoped>
@@ -40,11 +34,19 @@ onMounted(() => {
   padding: 0 5rem;
 }
 
+/* Tablet */
+@media (max-width: 1024px) {
+  .topics-container {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 2rem;
+  }
+}
+
 /* Mobile */
 @media (max-width: 768px) {
   .topics-container {
-    padding: 0 1rem;
     grid-template-columns: 1fr;
+    padding: 0 1rem;
   }
 }
 </style>

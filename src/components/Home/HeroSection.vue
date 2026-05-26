@@ -55,6 +55,11 @@ import SearchInput from "./SearchInput.vue"
 }
 
 @media (max-width: 768px) {
-  font-size: 14px;
+  .hero-content h1 {
+    font-size: 1.5rem;
+  }
+  .hero-content h2 {
+    font-size: 0.8rem;
+  }
 }
 </style>

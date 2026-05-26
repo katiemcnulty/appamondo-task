@@ -1,8 +1,10 @@
 <template>
+  <main>
     <HeroSection/>
     <HomeContent/>
     <ContactSupport/>
-    <Footer/>
+  </main>
+  <Footer/>
 </template>
 
 <script setup lang="ts">

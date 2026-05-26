@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { Search } from '@lucide/vue'
 
 defineProps({
   placeholder: String,
@@ -8,22 +9,22 @@ const popularSearches = [
   {
     title: "NC500",
     tooltip: "The North Coast 500",
-    url: "/articles/nc500",
+    url: "/article",
   },
   {
     title: "Edinburgh Castle",
     tooltip: "The Edinburgh Castle",
-    url: "/articles/edinburgh-castle",
+    url: "/article",
   },
   {
     title: "The Fringe",
     tooltip: "The Edinburgh Fringe Festival",
-    url: "/articles/the-fringe",
+    url: "/article",
   },
   {
     title: "Scottish Whiskey",
     tooltip: "Whiskeys of Scotland",
-    url: "/articles/whiskey"
+    url: "/article"
   }
 ]
 </script>
@@ -36,12 +37,15 @@ const popularSearches = [
         type="text"
         :placeholder="placeholder"
     >
-    <button class="search-button">Search</button>
+    <button class="search-button" aria-label="Search">
+      <Search :size="18" class="search-icon"/>
+      <span class="search-text">Search</span>
+    </button>
   </div>
 
-  <h2 id="popular-heading">Popular Searches</h2>
+  <h2 class="popular-heading">Popular Searches</h2>
   <div class="popular-searches">
-    <div  v-for="search in popularSearches">
+    <div v-for="search in popularSearches" :key="search.title">
       <div class="popular-search-item">
         <a :href="search.url"><span :title="search.tooltip">{{ search.title }}</span></a>
       </div>
@@ -55,6 +59,7 @@ const popularSearches = [
   position: relative;
   display: inline-block;
 }
+
 .search-input {
   width: 100%;
   padding: 1rem;
@@ -63,14 +68,12 @@ const popularSearches = [
   background: white;
   color: var(--color-primary);
   font-weight: 600;
-  transition:
-      box-shadow 0.25s ease,
-      border-color 0.25s ease,
-      background 0.25s ease,
-      transform 0.2s ease;
+  transition: all 0.25s ease;
 }
 
-.search-input:focus, .search-input:active, .search-input:hover {
+.search-input:focus,
+.search-input:active,
+.search-input:hover {
   outline: none;
   box-shadow:
       0 0 0 4px rgba(255,255,255,0.08),
@@ -88,18 +91,36 @@ const popularSearches = [
   color: white;
   border: none;
   border-radius: 3rem;
-  padding: 10px 20px;
+  padding: 10px 14px;
   cursor: pointer;
-  margin-left: 10px;
   opacity: 0.8;
+  display: flex;
+  align-items: center;
+  gap: 0;
+  overflow: hidden;
+  transition: all 0.3s ease;
 }
 
 .search-button:hover {
   opacity: 1;
+  gap: 0.5rem;
+  padding: 10px 20px;
   box-shadow:
       0 0 0 4px rgba(255,255,255,0.08),
       0 10px 40px rgba(0,0,0,0.1);
-  transition: all 0.3s ease-in;
+}
+
+.search-text {
+  max-width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  transition: max-width 0.3s ease;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.search-button:hover .search-text {
+  max-width: 80px;
 }
 
 .popular-searches {
@@ -108,22 +129,23 @@ const popularSearches = [
   gap: 1rem;
   padding: 1rem 0;
 }
+
 .popular-search-item {
   padding: 5px 10px;
   border: 0.15rem solid var(--color-primary-light);
   border-radius: 3rem;
   cursor: pointer;
-  font-weight: bold;
+  font-weight: 600;
   backdrop-filter: blur(3rem);
 }
+
 .popular-search-item:hover {
-  border-color: var(--color-primary);
   color: var(--color-primary);
   background: white;
   transition: all 0.1s ease-in;
 }
 
-#popular-heading {
+.popular-heading {
   font-size: 1rem;
   margin-bottom: 0.5rem;
   text-align: center;
@@ -132,6 +154,7 @@ const popularSearches = [
 @media (max-width: 768px) {
   .search-container {
     width: 100%;
+    padding: 0.4rem;
   }
   .popular-searches {
     font-size: 0.8rem;

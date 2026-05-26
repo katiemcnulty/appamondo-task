@@ -3,8 +3,6 @@
     "id": 201,
     "slug": "getting-around-scotland-without-a-car",
     "title": "Getting Around Scotland Without a Car",
-    "category": "Getting Here & Around",
-    "categorySlug": "getting-here-and-around",
     "lastUpdated": "2026-04-14",
     "readTime": "6 min read",
     "tags": ["Transport", "Planning", "Trains", "Ferries"],
@@ -18,11 +16,7 @@
       {
         "id": "by-train",
         "heading": "Travelling by Train",
-        "content": "ScotRail operates the majority of rail services within Scotland, connecting major cities like Edinburgh, Glasgow, Inverness, Aberdeen, and Stirling. The scenic West Highland Line — running from Glasgow to Mallaig via Fort William — is widely regarded as one of the most beautiful rail journeys in the world. For flexibility, ScotRail offer a range of rover passes including the Highland Rover and the Freedom of Scotland pass, which allow unlimited travel within set regions for a fixed number of days. These can represent excellent value if you plan to cover a lot of ground.",
-        "tip": {
-          "heading": "Top tip",
-          "content": "Book ScotRail tickets in advance online for the best fares. If you're travelling the West Highland Line, try to sit on the left side of the train heading north for the best views of Loch Lomond."
-        }
+        "content": "ScotRail operates the majority of rail services within Scotland, connecting major cities like Edinburgh, Glasgow, Inverness, Aberdeen, and Stirling. The scenic West Highland Line — running from Glasgow to Mallaig via Fort William — is widely regarded as one of the most beautiful rail journeys in the world. For flexibility, ScotRail offer a range of rover passes including the Highland Rover and the Freedom of Scotland pass, which allow unlimited travel within set regions for a fixed number of days. These can represent excellent value if you plan to cover a lot of ground."
       },
       {
         "id": "by-bus",
@@ -32,11 +26,7 @@
       {
         "id": "ferry-routes",
         "heading": "Ferry Routes to the Islands",
-        "content": "CalMac (Caledonian MacBrayne) operates ferry services to over 50 Scottish islands including Skye, Mull, Islay, Arran, and the Outer Hebrides. Ferries are a highlight of travel in Scotland in their own right — particularly the crossing to the Isle of Arran from Ardrossan, or the journey through the Sound of Mull to Craignure. NorthLink Ferries serve Orkney and Shetland from Aberdeen and Scrabster. It's advisable to book ferry crossings in advance during summer months, especially if you're travelling with luggage or on a tight schedule.",
-        "tip": {
-          "heading": "Did you know?",
-          "content": "CalMac offer an Island Rover ticket which gives you unlimited travel on their ferry network for a set number of days. Perfect if you plan to island-hop."
-        }
+        "content": "CalMac (Caledonian MacBrayne) operates ferry services to over 50 Scottish islands including Skye, Mull, Islay, Arran, and the Outer Hebrides. Ferries are a highlight of travel in Scotland in their own right — particularly the crossing to the Isle of Arran from Ardrossan, or the journey through the Sound of Mull to Craignure. NorthLink Ferries serve Orkney and Shetland from Aberdeen and Scrabster. It's advisable to book ferry crossings in advance during summer months, especially if you're travelling with luggage or on a tight schedule."
       },
       {
         "id": "cycling",
@@ -63,21 +53,20 @@
     ],
     "breadcrumbs": [
       {
+        "id": 1,
         "label": "Home",
         "url": "/"
       },
       {
+        "id": 2,
         "label": "Getting Here & Around",
         "url": "#"
       },
       {
+        "id": 3,
         "label": "Getting Around Scotland Without a Car",
-        "url": null
+        "url": "#"
       }
-    ],
-    "helpful": {
-      "yes": 142,
-      "no": 8
-    }
+    ]
   }
 }
